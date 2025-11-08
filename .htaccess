@@ -1,0 +1,14 @@
+# Force correct MIME type for AMP files
+<Files "index.amp.html">
+  Header set Content-Type text/html
+</Files>
+
+# Alternative approach for all .amp.html files
+<FilesMatch "\.amp\.html$">
+  Header set Content-Type text/html
+</FilesMatch>
+
+# Ensure all HTML files are served as text/html
+<FilesMatch "\.html$">
+  Header set Content-Type text/html
+</FilesMatch>
