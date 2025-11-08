@@ -1,0 +1,50 @@
+# Robots.txt for Taxi Lagi Bình Thuận
+# Website: https://taxilagi.vn
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+Allow: /assets/
+Allow: /styles.css
+Allow: /script.js
+Allow: /*.html
+Allow: /*.xml
+
+# Disallow sensitive or unnecessary files
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /*.log
+Disallow: /temp/
+Disallow: /backup/
+
+# Sitemap location
+Sitemap: https://taxilagi.vn/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block spam bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

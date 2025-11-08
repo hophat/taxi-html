@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://taxivũngtàu.vn/</loc>
-    <lastmod>2025-11-02</lastmod>
+    <loc>https://taxilagi.vn/</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://taxilagi.vn/assets/images/logo_01.png</image:loc>
+      <image:title>Taxi Lagi Bình Thuận Logo</image:title>
+      <image:caption>Logo dịch vụ taxi Lagi Bình Thuận chuyên nghiệp</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxilagi.vn/assets/images/banner01.jpeg</image:loc>
+      <image:title>Taxi Lagi Bình Thuận - Hotline 0989511431</image:title>
+      <image:caption>Dịch vụ taxi Lagi Bình Thuận chuyên nghiệp 24/7</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxilagi.vn/assets/images/banner02.webp</image:loc>
+      <image:title>Taxi chuyên nghiệp Lagi Bình Thuận</image:title>
+      <image:caption>Đội ngũ tài xế giàu kinh nghiệm, phương tiện hiện đại</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxilagi.vn/assets/lagi1.jpeg</image:loc>
+      <image:title>Bãi biển Lagi Bình Thuận</image:title>
+      <image:caption>Khám phá bãi biển tuyệt đẹp cùng taxi Lagi Bình Thuận</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxilagi.vn/assets/dulich1.jpeg</image:loc>
+      <image:title>Du lịch Lagi Bình Thuận Lâm Đồng</image:title>
+      <image:caption>Tour du lịch Lagi Bình Thuận với taxi chuyên nghiệp</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://taxivũngtàu.vn/index.amp.html</loc>
-    <lastmod>2025-11-02</lastmod>
+    <loc>https://taxilagi.vn/index.amp.html</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -179,6 +179,66 @@ i<!DOCTYPE html>
     }
     </script>
 
+    <!-- Review Schema JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Taxi Lagi Bình Thuận",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "150",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Minh Tuấn"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Dịch vụ taxi Lagi Bình Thuận rất chuyên nghiệp. Tài xế lái xe an toàn, xe sạch sẽ, giá cả hợp lý. Đặc biệt là chuyến đi sân bay Liên Khương rất đúng giờ.",
+          "datePublished": "2024-10-15"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Thanh Hoa"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Gia đình tôi đã sử dụng taxi Lagi để đi tour du lịch. Tài xế nhiệt tình, am hiểu địa phương, giới thiệu nhiều điểm đẹp.",
+          "datePublished": "2024-10-22"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Đức Thành"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Dịch vụ 24/7 rất tiện lợi. Lần trước tôi gọi taxi lúc 2h sáng để đi bệnh viện cấp cứu, tài xế đến rất nhanh và hỗ trợ tận tình.",
+          "datePublished": "2024-10-28"
+        }
+      ]
+    }
+    </script>
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:title"
@@ -282,7 +342,7 @@ i<!DOCTYPE html>
                 <div class="slide-content desktop-only">
                     <h2>Taxi Lagi Bình Thuận - Hotline Taxi Lagi Bình Thuận 0989511431</h2>
                     <p>Dịch vụ taxi Lagi Bình Thuận chất lượng cao tại Lagi, Bình Thuận, Lâm Đồng. Hotline taxi Lagi Bình Thuận 0989511431
-                        luôn sẵn sàng phục vụ 24/7.</p>
+                        luôn sẵn sàng phục vụ 24/7. Xem thêm <a href="#fleet" style="color: #dc2626; text-decoration: underline;">dòng xe taxi</a> và <a href="#routes" style="color: #dc2626; text-decoration: underline;">tuyến đường</a> của chúng tôi.</p>
                     <div class="cta-buttons">
                         <a href="tel:0989511431" class="btn btn-primary">Gọi Taxi Lagi Bình Thuận</a>
                         <a href="https://zalo.me/0989511431" class="btn btn-secondary" target="_blank" rel="noopener">
@@ -901,6 +961,145 @@ i<!DOCTYPE html>
         </div>
     </section>
 
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Đánh Giá Từ Khách Hàng</h2>
+            <p class="reviews-subtitle">Những phản hồi tích cực từ khách hàng đã sử dụng dịch vụ taxi Lagi Bình Thuận</p>
+            
+            <div class="reviews-grid">
+                <div class="review-item">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Anh Minh Tuấn</h4>
+                            <span class="reviewer-location">TP. Hồ Chí Minh</span>
+                        </div>
+                        <div class="review-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">5/5</span>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Dịch vụ taxi Lagi Bình Thuận rất chuyên nghiệp. Tài xế lái xe an toàn, xe sạch sẽ, giá cả hợp lý. Đặc biệt là chuyến đi sân bay Liên Khương rất đúng giờ. Sẽ tiếp tục sử dụng dịch vụ."</p>
+                    </div>
+                    <div class="review-date">15/10/2024</div>
+                </div>
+                
+                <div class="review-item">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Chị Thanh Hoa</h4>
+                            <span class="reviewer-location">Đà Lạt</span>
+                        </div>
+                        <div class="review-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">5/5</span>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Gia đình tôi đã sử dụng taxi Lagi để đi tour du lịch. Tài xế nhiệt tình, am hiểu địa phương, giới thiệu nhiều điểm đẹp. Xe 7 chỗ rộng rãi, thoải mái cho cả gia đình."</p>
+                    </div>
+                    <div class="review-date">22/10/2024</div>
+                </div>
+                
+                <div class="review-item">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Anh Đức Thành</h4>
+                            <span class="reviewer-location">Bình Thuận</span>
+                        </div>
+                        <div class="review-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">5/5</span>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Dịch vụ 24/7 rất tiện lợi. Lần trước tôi gọi taxi lúc 2h sáng để đi bệnh viện cấp cứu, tài xế đến rất nhanh và hỗ trợ tận tình. Cảm ơn taxi Lagi Bình Thuận!"</p>
+                    </div>
+                    <div class="review-date">28/10/2024</div>
+                </div>
+                
+                <div class="review-item">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Chị Mai Linh</h4>
+                            <span class="reviewer-location">Lâm Đồng</span>
+                        </div>
+                        <div class="review-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">5/5</span>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Giá cả minh bạch, không phát sinh chi phí. Tài xế lịch sự, xe máy lạnh mát. Đặc biệt phục vụ tuyến Lagi - Đà Lạt rất tốt, sẽ giới thiệu cho bạn bè."</p>
+                    </div>
+                    <div class="review-date">02/11/2024</div>
+                </div>
+                
+                <div class="review-item">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Anh Quang Huy</h4>
+                            <span class="reviewer-location">Vũng Tàu</span>
+                        </div>
+                        <div class="review-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">5/5</span>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Booking qua Zalo rất dễ dàng, phản hồi nhanh. Xe đến đúng giờ hẹn. Tài xế lái xe êm ái, an toàn. Chuyến đi từ Lagi về Vũng Tàu rất hài lòng."</p>
+                    </div>
+                    <div class="review-date">05/11/2024</div>
+                </div>
+                
+                <div class="review-item">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Chị Phương Thảo</h4>
+                            <span class="reviewer-location">Nha Trang</span>
+                        </div>
+                        <div class="review-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">5/5</span>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Dịch vụ taxi tuyến dài rất chuyên nghiệp. Từ Lagi đi Nha Trang, tài xế nghỉ đúng chỗ, không tăng giá bất hợp lý. Xe 4 chỗ sạch sẽ, tiết kiệm nhiên liệu."</p>
+                    </div>
+                    <div class="review-date">07/11/2024</div>
+                </div>
+            </div>
+            
+            <div class="reviews-summary">
+                <div class="summary-item">
+                    <span class="summary-number">4.8</span>
+                    <span class="summary-label">Điểm đánh giá</span>
+                    <div class="summary-stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">150+</span>
+                    <span class="summary-label">Đánh giá tích cực</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">98%</span>
+                    <span class="summary-label">Khách hàng hài lòng</span>
+                </div>
+            </div>
+            
+            <div class="reviews-cta">
+                <p>Bạn đã sử dụng dịch vụ của chúng tôi? Hãy để lại đánh giá!</p>
+                <div class="reviews-buttons">
+                    <a href="tel:0989511431" class="btn btn-primary">Gọi ngay để đặt xe</a>
+                    <a href="https://zalo.me/0989511431" class="btn btn-secondary" target="_blank" rel="noopener">
+                        <img src="./assets/images/zalo.png" alt="Zalo - Taxi Lagi Bình Thuận" loading="lazy">
+                        Đánh giá qua Zalo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- FAQ Section -->
     <section id="faq" class="faq">
         <div class="container">
@@ -1124,7 +1323,7 @@ i<!DOCTYPE html>
                     <div class="offer-badge">🎁 ƯỢI ĐÃI ĐẶC BIỆT</div>
                     <div class="offer-text">
                         <strong>MIỄN PHÍ 1 THÁNG ĐẦU</strong>
-                        <span>Chỉ từ 500.000đ/tháng</span>
+                        <span>Chỉ từ 100.000đ/tháng</span>
                     </div>
                 </div>
             </div>
