@@ -1,5 +1,5 @@
 # Robots.txt for Taxi Lagi Bình Thuận
-# Website: https://taxilagi.vn
+# Website: https://taxilagi.io.vn
 
 User-agent: *
 Allow: /
@@ -21,7 +21,7 @@ Disallow: /temp/
 Disallow: /backup/
 
 # Sitemap location
-Sitemap: https://taxilagi.vn/sitemap.xml
+Sitemap: https://taxilagi.io.vn/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
