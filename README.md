@@ -83,8 +83,8 @@ Website này hỗ trợ cả phiên bản thông thường và AMP để tối �
 ```javascript
 const taxiConfig = {
     contact: {
-        phone: '0989511431',     // Thay số hotline mới
-        zaloId: '0989511431',    // Thay ID Zalo mới
+        phone: '0941865131',     // Thay số hotline mới
+        zaloId: '0941865131',    // Thay ID Zalo mới
     },
     // ... các cấu hình khác
 };
@@ -108,8 +108,8 @@ Hero section sử dụng hình ảnh từ: https://ik.imagekit.io/tvlk/blog/2024
 
 ## Liên hệ
 
-- Hotline: 0989511431
-- Zalo: 0989511431
+- Hotline: 0941865131
+- Zalo: 0941865131
 - Khu vực: Bình Thuận và lân cận
 
 ## License

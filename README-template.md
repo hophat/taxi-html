@@ -19,17 +19,17 @@ const taxiConfig = {
         country: 'Việt Nam',
         lat: 10.674,                           // Tọa độ GPS
         lng: 107.073,
-        phoneDisplay: '+84-989-511-431'         // Số điện thoại định dạng
+        phoneDisplay: '+84-941-865-131'         // Số điện thoại định dạng
     },
 
     contact: {
-        phone: '0989511431',                    // Số điện thoại gốc
-        zaloId: '0989511431',                   // ID Zalo (có thể khác số điện thoại)
+        phone: '0941865131',                    // Số điện thoại gốc
+        zaloId: '0941865131',                   // ID Zalo (có thể khác số điện thoại)
     },
 
     seo: {
         keywords: ['taxi lagi bình thuận', ...], // Từ khóa SEO
-        title: 'Taxi Lagi Bình Thuận - Hotline 0989511431 | Đặt Taxi Lagi Bình Thuận',
+        title: 'Taxi Lagi Bình Thuận - Hotline 0941865131 | Đặt Taxi Lagi Bình Thuận',
         description: 'Mô tả SEO...'
     },
 
